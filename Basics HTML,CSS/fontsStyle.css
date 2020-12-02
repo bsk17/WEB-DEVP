@@ -1,0 +1,40 @@
+body{
+    font-size: 15px;
+}
+
+p{
+    font-size: 1.2em;
+
+    /* to make bold text */
+    font-weight: bold;
+
+    /* for line spacing */
+    line-height: 1.5;
+}
+
+/* making first paragraph center */
+p:nth-of-type(1){
+    text-align: center;
+    /* we are using custome fonts here from google fonts  */
+    font-family: 'Raleway', sans-serif;
+}
+p:nth-of-type(2){
+    /* we are using custome fonts here from google fonts  */
+    font-family: 'Indie Flower', cursive;
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 3.0em;
+
+    text-align: center;
+
+    text-decoration: underline;
+}
+
+/* em will make the size of span element font size double the size of the parent element font size 
+(in this case p element) */
+span{
+    font-size: 2.0em;
+    text-decoration: underline;
+}

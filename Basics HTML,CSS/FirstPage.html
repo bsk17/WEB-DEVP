@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- metadata goes here -->
+        <title>Things I've Learned</title>
+    </head>
+    <body>
+        <!-- content goes here -->
+        <!-- <h1>Rusty Steele</h1>
+        <p>Hi, I'm a dog</p>
+        <img src="https://i.imgur.com/Zl0A6erm.jpg">
+        <p><strong>Some of my favourite places</strong></p>
+        <ul>
+            <li>The beach</li>
+            <li>The dog park</li>
+            <li>The fire hydrane</li>
+        </ul>
+        <p>
+            Make sure to follow me on
+            <a href="http://www.instagram.com">Instagram</a>
+        </p> -->
+        <!-- <h1>First Gen Pokemon Chart</h1>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Type</th>
+                    <th>Evovles Into</th>
+                </tr>
+            </thead>
+    
+            <tbody>
+                <tr>
+                    <td><img src="http://img4.wikia.nocookie.net/__cb20140328190757/pokemon/images/thumb/2/21/001Bulbasaur.png/200px-001Bulbasaur.png"></td>
+                    <td>Bulbasar</td>
+                    <td>Grass/Poison</td>
+                    <td><a href="http://pokemon.wikia.com/wiki/Ivysaur">Ivysaur</a></td>
+                </tr>
+                <tr>
+                    <td><img src="http://img4.wikia.nocookie.net/__cb20140724195345/pokemon/images/thumb/7/73/004Charmander.png/200px-004Charmander.png"></td>
+                    <td>Charmander</td>
+                    <td>Fire</td>
+                    <td><a href="http://pokemon.wikia.com/wiki/Charmeleon">Charmeleon</a></td>
+                </tr>
+                <tr>
+                    <td><img src="http://img1.wikia.nocookie.net/__cb20140328191525/pokemon/images/thumb/3/39/007Squirtle.png/200px-007Squirtle.png"></td>
+                    <td>Squirtle</td>
+                    <td>Water</td>
+                    <td><a href="http://pokemon.wikia.com/wiki/Wartotle">Wartotle</a></td>
+                </tr>
+            </tbody>
+        </table> -->
+        <!-- <p>Do you Prefer Dogs or cat ?</p>
+        <form action="">
+            <label for="dog">DOG : </label>
+            <input type="radio" name="petChoice" id="dog" value="dog">  
+
+            <label for="cat">CAT : </label>
+            <input type="radio" name="petChoice" id="cat" value="cat">
+            
+            <p>Select your favourite colour!!</p>
+            <select name="color">
+                <option value="red">RED</option>
+                <option value="yellow">YELLOW</option>
+                <option value="blue">BLUE</option>
+                <option value="green">GREEN</option>
+            </select>
+
+            <button>Go!</button>
+        </form> -->
+        <h1>Register</h1>
+        <form action="">
+            <label for="firstName">First Name:</label>
+            <input required type="text" name="name" id="firstName" placeholder="John">
+            <label for="lastName">Last Name:</label>
+            <input required type="text" name="name" id="lastName" placeholder="Smith">
+            <div>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="radio-choice" value="choice-1">
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="radio-choice" value="choice-2">
+                <label for="other">Other</label>
+                <input type="radio" id="other" name="radio-choice" value="choice-3">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input required name="email" type="email" id="email" placeholder="your email">
+                <label for="password">Password:</label>
+                <input required name="password" type="password" id="password" pattern=".{5,10}" title="5-10 characters">
+            </div>
+            <div>
+                <label for="birthday">Birthday:</label>
+                <select name="month">
+                    <option>Month</option>
+                    <option value="January">Jan</option>
+                    <option value="February">Feb</option>
+                    <option value="March">Mar</option>
+                    <option value="April">Apr</option>
+                </select>
+                <select name="day">
+                    <option>Day</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                <select name="year">
+                    <option>Year</option>
+                    <option value="2020">2020</option>
+                    <option value="2019">2019</option>
+                    <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                </select>
+            </div>
+            <div>
+                <label for="tc">I agree to the terms and conditions</label>
+                <input type="checkbox" name="tc" id="tc">   
+            </div>
+            <input type="submit" name="submit">
+        </form>
+    </body>
+</html>

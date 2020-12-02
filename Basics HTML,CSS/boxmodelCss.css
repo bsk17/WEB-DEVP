@@ -1,0 +1,26 @@
+p{
+    /* changing content size */
+    /* % is relative to the parent element just like em in font size*/
+    width: 50%;
+    /* adding border to the content */
+    border:2px solid blue;  
+    /* to add padding */
+    /* padding: 10px; */
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    /* to add margin */
+    /* margin: 100px;   */
+    /* margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px; */
+
+    /* to set the margin of all four sides in one go */
+    /* margin: 10px 20px 30px 40px; */
+
+    /* to automatically set the margin at left and right we can use the below thing */
+    margin: 10px auto; 
+    /* 10 for top and bottom and auto for left and right */
+}
